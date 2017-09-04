@@ -19,9 +19,12 @@ author: Chris de Bruin
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.flexcoder.nl" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: chris_de_bruin
 github_username:  chrisdebruin
+linkedin_username: chrisdebruin
+stackoverflow_username: '4862564/chris'
+google_analytics: true
 
 # Build settings
 markdown: kramdown
