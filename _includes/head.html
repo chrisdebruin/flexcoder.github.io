@@ -7,7 +7,7 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   <meta name="keywords" content="Chris de Bruin, Ruby on Rails, freelance, developer, aws, cloud, DevOps, docker, webdeveloper, fullstack, flexcoder" >
 
-  <link href="{{ site.github.url }}/assets/main.css" rel="stylesheet">
+  <link href="{{ "/assets/main.css" | prepend: site.github.url | replace: 'http://', '//' }}" rel="stylesheet">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 
   {% if jekyll.environment == 'production' and site.google_analytics %}
@@ -18,5 +18,5 @@
   <meta name="robots" content="noarchive, nofollow">
 
   <link rel="shortcut icon" href="{{ site.github.url }}/favicon.ico" type="image/x-icon">
-  <link rel="icon" href="{{ site.github.url }}/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="{{ "/favicon.ico" | prepend: site.github.url | replace: 'http://', '//' }}" type="image/x-icon">
 </head>
