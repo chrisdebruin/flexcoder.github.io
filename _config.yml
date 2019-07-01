@@ -19,7 +19,6 @@ author: Chris de Bruin
 description: "Flexcoder: Freelance fullstack Ruby (Rails) developer & DevOps engineer"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.flexcoder.nl" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: chris_de_bruin
 github_username:  chrisdebruin
 linkedin_username: chrisdebruin
 stackoverflow_username: '4862564/chris'
